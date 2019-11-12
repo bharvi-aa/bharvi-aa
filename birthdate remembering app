@@ -1,0 +1,21 @@
+dict={}
+
+while True
+
+ print("birthday remembering app")
+ print("1. show birthday")
+ print("2. add to birthday list")
+ print("3. exit")
+ choice= int(input("enter the choice  "))
+
+ if choice==1:
+   if len.(dict.keys())==0:
+     print("nothing to show")
+  else
+   name=input("enter the name to look for birthday   ")
+   birthday=dict.get(name,"no data found")
+   print(birthday)
+  
+if choice==2:
+  name=input("enter friend's name  ")
+  date=input("enter birthdate  ")
